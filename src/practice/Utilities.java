@@ -12,6 +12,7 @@ public class Utilities {
     }
 
     public static void printCompletedCountTasks() {
+        SCANNER.close();
         System.out.printf("\nВыполнено задач за день: %d", Utilities.taskNumber);
     }
 }

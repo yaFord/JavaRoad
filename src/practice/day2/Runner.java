@@ -60,7 +60,6 @@ public class Runner {
         }
         System.out.printf("y = %.2f", y);
 
-        SCANNER.close();
         printCompletedCountTasks();
     }
 }
