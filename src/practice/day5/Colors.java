@@ -1,10 +1,10 @@
 package practice.day5;
 
-public enum Color {
+public enum Colors {
     RED("Красный"), BLACK("Чёрный");
     final String text;
 
-    Color(String text) {
+    Colors(String text) {
         this.text = text;
     }
 }

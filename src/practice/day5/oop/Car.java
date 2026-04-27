@@ -1,17 +1,17 @@
 package practice.day5.oop;
 
-import practice.day5.Color;
+import practice.day5.Colors;
 
 public class Car {
     private int yearOfManufacture;
-    private Color color;
+    private Colors color;
     private String model;
 
     public void setYearOfManufacture(int yearOfManufacture) {
         this.yearOfManufacture = yearOfManufacture;
     }
 
-    public void setColor(Color color) {
+    public void setColor(Colors color) {
         this.color = color;
     }
 
@@ -23,7 +23,7 @@ public class Car {
         return yearOfManufacture;
     }
 
-    public Color getColor() {
+    public Colors getColor() {
         return color;
     }
 

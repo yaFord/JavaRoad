@@ -11,7 +11,7 @@ public class Runner {
         printTaskNumber();
         Car car = new Car();
 
-        car.setColor(Color.BLACK);
+        car.setColor(Colors.BLACK);
         car.setModel("BMW");
         car.setYearOfManufacture(2009);
 
@@ -19,14 +19,14 @@ public class Runner {
 
 
         printTaskNumber();
-        Motorbike motorbike = new Motorbike(2005, Color.RED, "Крутая");
+        Motorbike motorbike = new Motorbike(2005, Colors.RED, "Крутая");
         printInfo(motorbike.getColor(), motorbike.getModel(), motorbike.getYearOfManufacture());
 
 
         printCompletedCountTasks();
     }
 
-    public static void printInfo(Color color, String model, int yearOfManufacture) {
+    public static void printInfo(Colors color, String model, int yearOfManufacture) {
         System.out.printf("""
                 Цвет: %s
                 Модель: %s
