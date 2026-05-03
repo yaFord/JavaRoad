@@ -1,0 +1,24 @@
+package practice.day9.task1;
+
+public class Student extends Human {
+    private String group;
+
+    public Student(String name, String group) {
+        super(name);
+        this.group = group;
+    }
+
+    @Override
+    public void printInfo() {
+        super.printInfo();
+        System.out.printf("Этот студент с именем %s.\n", getName());
+    }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public void setGroup(String group) {
+        this.group = group;
+    }
+}
